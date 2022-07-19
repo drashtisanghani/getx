@@ -22,9 +22,7 @@ class _Screen2State extends State<Screen2> {
               onPressed: () {
                 Get.back();
               },
-              icon: const Icon(
-                Icons.arrow_back,
-              ),
+              icon: const Icon(Icons.arrow_back),
             ),
           ],
         ),
@@ -36,7 +34,8 @@ class _Screen2State extends State<Screen2> {
               storeController.homePage.value.entries![index].API.toString(),
             ),
             subtitle: Text(
-              storeController.homePage.value.entries![index].Description.toString(),
+              storeController.homePage.value.entries![index].Description
+                  .toString(),
             ),
           ),
         )

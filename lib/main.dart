@@ -25,9 +25,7 @@ class _Screen1State extends State<Screen1> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("GetX Demo"),
-      ),
+      appBar: AppBar(title: const Text("GetX Demo")),
       drawer: const Drawer(),
       body: Center(
         child: Column(
